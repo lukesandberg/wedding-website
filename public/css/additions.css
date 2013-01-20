@@ -27,7 +27,10 @@
   padding: 20px;
 }
 
-.notice > h1 {
+.notice > h1,
+.notice > h2,
+.notice > h3,
+.notice > h4 {
   color: #7F003F;
 }
 
