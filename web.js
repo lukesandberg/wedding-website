@@ -25,7 +25,7 @@ app.get('/', function(request, response) {
 	response.render('home.html', {banner: utils.getDriveImageUrl('homepage_banner.jpg'), active: 'Home'});
 });
 app.get('/bride-and-groom/', function(request, response) {
-	response.render('bride_and_groom.html', {banner: '/img/homepage_banner.jpg', active: 'Bride & Groom'});
+	response.render('bride_and_groom.html', {banner: utils.getDriveImageUrl('bride_and_groom_banner.jpg'), active: 'Bride & Groom'});
 });
 
 var port = process.env.PORT || 5000;
