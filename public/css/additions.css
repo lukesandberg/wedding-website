@@ -29,7 +29,7 @@ img.bg {
 
 .navbar-inner {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
 }
 
@@ -40,7 +40,7 @@ img.bg {
 
 .navbar >.navbar-inner > .nav > li.active > a{
   background:none;
-  color: #333333;
+  color: #BF005F;
 }
 
 .navbar >.navbar-inner > .nav > li > a {
