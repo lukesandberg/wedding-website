@@ -20,6 +20,16 @@ img.bg {
   padding: 20px;
 }
 
+.countdown {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: medium;
+  font-weight: bold;
+  position: absolute;
+  right: 5px;
+  top: 11px;
+  color: #7F003F;
+}
+
 .notice > h1,
 .notice > h2,
 .notice > h3,
