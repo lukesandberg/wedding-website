@@ -46,6 +46,13 @@ app.get('/bride-and-groom/', function(request, response) {
 		daysToGo: utils.getDaysToGo()
 	});
 });
+app.get('/wedding-party/', function(request, response) {
+	response.render('wedding_party.html', {
+		banner: utils.getDriveImageUrl('wedding_party.jpg'), 
+		active: 'Wedding Party',
+		daysToGo: utils.getDaysToGo()
+	});
+});
 
 var port = process.env.PORT || 5000;
 app.listen(port, function() {
